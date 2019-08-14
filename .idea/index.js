@@ -12,10 +12,11 @@ class Movie
         this.rate=rating;
         this.releaseYear=yearReleased
     }
-    // cngMovie()
-    // {
-    //     this.movie=prompt('What is the name of the movie?');
-    // }
+    // you should pass these methods a param to updae
+    cngMovie()
+    {
+        this.movie=prompt('What is the name of the movie?');
+    }
     cngRate()
     {
         this.rate=prompt('What is the ramovie rating?');
@@ -33,8 +34,10 @@ class Movie
 let newMovie= new Movie("Moon and Stars","4 out of 5 stars", "2017")
 
 newMovie.movie="green mile";
+// movie is not a property of the class Movie
 console.log(newMovie);
 newMovie.movie="Batman";
+// you should use the methods that you define in the class to update movie information 
 console.log(newMovie);
 
 // newMovie.printStuff();

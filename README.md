@@ -1,5 +1,9 @@
 # javascript-classes2_cw
 
+Your files are NOT formatted correctly. index.js is in the idea directory. 
+Partial Credit 1/1. 
+See index.js for comments. 
+Score : 2 points 
 
 Kenn said to ignore the 2nd question!!!
 ### Exercise 1
